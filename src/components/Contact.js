@@ -5,25 +5,29 @@ const Contact = () => {
   return (
     <div className="flex lg:flex-row flex-col mt-10 w-screen h-full lg:justify-evenly items-center">
       <div className="flex flex-col">
-        <p className="font-extrabold lg:text-3xl text-2xl mb-2.5 ">
+        <p className="font-extrabold lg:text-3xl text-xl mb-2.5 ">
           Let's talk.
         </p>
-        <p className="font-semibold lg:text-xs text-[10px] tracking-widest ">
+        <p className="font-semibold lg:text-xs text-[8px] tracking-widest ">
           Have big ideas and want to bring them to life? We'd Love to hear from
           you.
           <br /> Tell us about you, your project and how we can help make it
           happen!
         </p>
 
-        <div className="mt-12">
-          <p className="text-black text-2xl font-bold mb-2.5">Phone.</p>
-          <p className="text-black text-sm font-bold tracking-wide ">
+        <div className="lg:mt-12 mt-8">
+          <p className="text-black lg:text-2xl text-xl font-bold mb-2.5">
+            Phone.
+          </p>
+          <p className="text-black text-[10px] font-bold tracking-wide ">
             +254 798 898988
           </p>
         </div>
 
         <div className="lg:mb-0 mb-4">
-          <p className="font-extrabold text-2xl mb-2.5 mt-12 ">Emails.</p>
+          <p className="font-extrabold lg:text-2xl text-xl mb-2.5 lg:mt-12 mt-8 ">
+            Emails.
+          </p>
           <p className="text-black text-sm tracking-wide mb-1 italic underline">
             Sales@solosconsulting.com
           </p>

@@ -17,25 +17,25 @@ const NavBar = () => {
         {/* Navigation Links */}
         <div className="flex space-x-8">
           <Link
-            className="lg:text-md text-sm text-black hover:scale-125 transition-transform will-change-transform duration-300 transform-gpu"
+            className="lg:text-md text-[10px] text-black hover:scale-125 transition-transform will-change-transform duration-300 transform-gpu"
             to="/home"
           >
             Home
           </Link>
           <Link
-            className="lg:text-md text-sm texct-black hover:scale-125 transition-transform will-change-transform duration-300"
+            className="lg:text-md text-[10px] texct-black hover:scale-125 transition-transform will-change-transform duration-300"
             to="/about"
           >
             About us
           </Link>
           <Link
-            className="lg:text-md text-sm text-black hover:scale-125 transition-transform will-change-transform duration-300"
+            className="lg:text-md text-[10px] text-black hover:scale-125 transition-transform will-change-transform duration-300"
             to="/case-studies"
           >
             Case studies
           </Link>
           <Link
-            className="lg:text-md text-sm text-black hover:scale-125 transition-transform will-change-transform duration-300"
+            className="lg:text-md text-[10px] text-black hover:scale-125 transition-transform will-change-transform duration-300"
             to="/contact"
           >
             Contact

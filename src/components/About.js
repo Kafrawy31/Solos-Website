@@ -28,15 +28,15 @@ const Testing = () => {
           alt=""
         />
       </div>
-      <h1 className="text-6xl lg:mt-6 mt-[6rem]">About Us</h1>
+      <h1 className="lg:text-6xl lg:mt-6 mt-[2rem] text-4xl">About Us</h1>
 
       {/* Buttons for selecting sections */}
-      <div className="flex gap-4 mt-14 mb-10">
+      <div className="flex gap-4 mt-14 lg:mb-10 mb-2">
         {aboutData.map((item) => (
           <button
             key={item.id}
             onClick={() => setSelectedSection(item)}
-            className={`lg:px-8 px-5  border-2 border-white py-2 lg:text-md text-sm font-bold rounded-md transition-all ${
+            className={`lg:px-8 px-3  border-2 border-white py-2 lg:text-md text-sm font-bold rounded-md transition-all ${
               selectedSection.id === item.id
                 ? "bg-[#192C19] text-[#F0833A]"
                 : "bg-transparent"
@@ -56,13 +56,13 @@ const Testing = () => {
           {selectedSection.title}
         </h2>
         <p
-          className="text mt-2 lg:text-xl text-md text-justify"
+          className="mt-2 lg:text-xl text-sm text-justify"
           style={{ textAlign: "justify", textAlignLast: "center" }}
         >
           {selectedSection.description}
         </p>
       </div>
-      <div className="flex flex-row">
+      <div className="flex flex-row lg:mb-0 mb-6">
         <Link to={"/case-studies"}>
           <button class="learn-more lg:w-[10rem] lg:h-[2.6rem] w-[7rem] mt-12 mr-6">
             <span class="circle">
@@ -78,7 +78,7 @@ const Testing = () => {
             <span class="circle">
               <span class="icon arrow"></span>
             </span>
-            <span class="button-text italic text-[0.4rem] lg:text-xs ">
+            <span class="button-text italic text-[0.4rem] lg:text-xs">
               Get in Touch
             </span>
           </button>
