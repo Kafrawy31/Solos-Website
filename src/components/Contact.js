@@ -39,7 +39,7 @@ const Contact = () => {
       </div>
       <form
         className="mt-10 lg:self-start relative lg:w-[35%] w-[90%]"
-        action="https://formsubmit.co/aujsaujs31@gmail.com"
+        action="https://formsubmit.co/ahmedkhaledkafrawy31@gmail.com"
         method="POST"
       >
         <div className="flex flex-col">
@@ -55,7 +55,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <p className="text-sm font-bold mb-1">Email</p>
             <input
-              type="text"
+              type="email"
               name="email"
               required
               className="border-b-black focus:outline-none font-bold border-t-0 border-l-0 border-r-0 border-2 bg-transparent p-0 w-[100%] mb-4"
@@ -64,6 +64,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <p className="text-sm font-bold mb-1">Message</p>
             <textarea
+              type="text"
               name="message"
               required
               className="border-b-black focus:outline-none font-bold border-t-0 border-l-0 border-r-0 border-2 bg-transparent p-0 w-[100%] h-[30px] mb-4"
