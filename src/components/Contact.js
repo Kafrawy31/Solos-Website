@@ -39,7 +39,7 @@ const Contact = () => {
       </div>
       <form
         className="mt-10 lg:self-start relative lg:w-[35%] w-[90%]"
-        action="https://formsubmit.co/ahmedkhaledkafrawy31@gmail.com"
+        action="https://formsubmit.co/bb9c4ec899b63ee4ee2923991ec2a98d"
         method="POST"
       >
         <div className="flex flex-col">
