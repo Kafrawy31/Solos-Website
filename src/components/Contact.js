@@ -3,7 +3,7 @@ import transition from "../transition";
 
 const Contact = () => {
   return (
-    <div className="flex lg:flex-row flex-col mt-10 w-screen h-full lg:justify-evenly items-center">
+    <div className="flex lg:flex-row flex-col mt-10 lg:w-screen w-[90%] h-full lg:justify-evenly items-center">
       <div className="flex flex-col">
         <p className="font-extrabold lg:text-3xl text-xl mb-2.5 ">
           Let's talk.
