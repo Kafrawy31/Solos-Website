@@ -145,6 +145,12 @@ button.learn-more .button-text {
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  button.learn-more .button-text {
+    margin-left: 10px; /* Adjust this value as needed */
+  }
+}
+
 button:hover .circle {
   width: 100%;
 }
