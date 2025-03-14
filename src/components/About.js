@@ -62,16 +62,28 @@ const Testing = () => {
           {selectedSection.description}
         </p>
       </div>
-      <Link to={"/contact"}>
-        <button class="learn-more lg:w-[10rem] lg:h-[2.6rem] w-[7rem] mt-12">
-          <span class="circle">
-            <span class="icon arrow"></span>
-          </span>
-          <span class="button-text italic text-[0.4rem] lg:text-xs ">
-            Get in Touch
-          </span>
-        </button>
-      </Link>
+      <div className="flex flex-row">
+        <Link to={"/case-studies"}>
+          <button class="learn-more lg:w-[10rem] lg:h-[2.6rem] w-[7rem] mt-12 mr-6">
+            <span class="circle">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text italic text-[0.4rem] lg:text-xs ">
+              Case studies
+            </span>
+          </button>
+        </Link>
+        <Link to={"/contact"}>
+          <button class="learn-more lg:w-[10rem] lg:h-[2.6rem] w-[7rem] mt-12">
+            <span class="circle">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text italic text-[0.4rem] lg:text-xs ">
+              Get in Touch
+            </span>
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };
