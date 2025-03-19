@@ -12,7 +12,7 @@ const Home = () => {
             <br></br> to meet <strong>your</strong> business needs
           </h2>
           <h3 className="lg:text-[17px] text-[10px] tracking-wide   pt-[0.8rem]">
-            Future proof your businesses with language models,
+            Future proof your business with language models,
             <br /> automation, analytics, and computer vision.
           </h3>
           <div className="flex flex-row  mt-[1.2rem]">

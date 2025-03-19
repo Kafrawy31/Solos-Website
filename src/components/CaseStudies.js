@@ -505,19 +505,19 @@ function MobileCaseStudies() {
       <div className="w-[75%]">
         {/* Computer Vision */}
         <section id="computer-vision" className="p-0 lg:ml-[1.5rem]">
-          <div className="mt-[10rem] flex flex-col items-center">
-            <h1 className="cv-title lg:text-[2.1rem] font-bold sm:text-[2rem] mb-[3rem]">
+          <div className="mt-[14rem] flex flex-col items-center">
+            <h1 className="cv-title lg:text-[2.1rem] font-bold sm:text-[2rem] mb-[1.5rem]">
               Computer Vision
             </h1>
             <div className="flex flex-row w-[90%] sm:w-[90%]">
               <img
-                src="./images.png"
+                src="./cv-img-nobg.png"
                 alt=""
-                className="cv-video rounded-lg flex-[2] h-auto max-h-[300px] max-w-[40%] z-[100]"
+                className="cv-video rounded-lg flex-[3] h-auto max-h-[300px] max-w-[40%] z-[100]"
               />
               <div className="flex-[3] pl-[20px]  items-center">
-                <h2 className="cv-header font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]">
-                  Case Study
+                <h2 className="cv-header font-bold mt-3 lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]">
+                  What we provide
                 </h2>
                 <p className="cv-text lg:text-[18px] text-[8px]">
                   Harness the power of AI to analyze and interpret images and
@@ -534,13 +534,13 @@ function MobileCaseStudies() {
         {/* LLMs */}
         <section id="llms" className="p-0 lg:ml-[1.5rem]">
           <div className="mt-[10rem] flex flex-col items-center">
-            <h1 className="llm-title rounded-lg lg:text-[2.1rem] font-bold sm:text-[2rem] mb-[3rem]">
+            <h1 className="llm-title rounded-lg lg:text-[2.1rem] font-bold sm:text-[2rem] mb-[1.5rem]">
               LLMs
             </h1>
             <div className="flex flex-row w-[100%] sm:w-[90%]">
               <div className="flex-[3] flex flex-col pl-[20px] min-h-flex items-center">
                 <h2 className="llm-header self-start font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]">
-                  Case Study
+                  What we provide
                 </h2>
                 <p className="llm-text self-start lg:text-[18px] text-[8px]">
                   Enhance customer interactions, automate content creation, and
@@ -550,9 +550,9 @@ function MobileCaseStudies() {
                 </p>
               </div>
               <img
-                src="./images.png"
+                src="./llm-img-nobg.png"
                 alt=""
-                className="llm-video flex-[2] ml-6 h-auto max-h-[300px] max-w-[40%] rounded-md  z-[100]"
+                className="llm-video flex-[2] ml-6 h-auto max-h-[300px] max-w-[30%] rounded-md  z-[100]"
               />
             </div>
           </div>
@@ -561,18 +561,18 @@ function MobileCaseStudies() {
         {/* AI Agents */}
         <section id="ai-agents" className="p-0 lg:ml-[1.5rem]">
           <div className="mt-[10rem] flex flex-col items-center">
-            <h1 className="ai-agent-title lg:text-[2.1rem] font-bold sm:text-[2rem] mb-[3rem]">
+            <h1 className="ai-agent-title lg:text-[2.1rem] font-bold sm:text-[2rem] mb-[1.2rem]">
               Automation
             </h1>
             <div className="flex flex-row w-[90%] sm:w-[90%]">
               <img
-                src="./images.png"
+                src="./automation-nobg.png"
                 alt=""
-                className="ai-agent-video rounded-lg flex-[2] h-auto max-h-[300px] max-w-[40%] z-[100]"
+                className="ai-agent-video rounded-lg flex-[2] h-auto max-h-[300px] max-w-[30%] z-[100]"
               />
               <div className="flex-[3] pl-[20px] min-h-flex items-center">
-                <h2 className="ai-agent-header font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]">
-                  Case Study
+                <h2 className="ai-agent-header font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] mt-2 lg:mb-[1rem]">
+                  What we provide
                 </h2>
                 <p className="ai-agent-text lg:text-[18px] text-[8px]">
                   Eliminate repetitive tasks and optimize operations with
@@ -591,7 +591,7 @@ function MobileCaseStudies() {
           <div className="mt-[10rem] flex flex-col items-center">
             <h1
               id="predictive-analysis"
-              className="pred-analysis-title lg:text-[2.1rem] font-bold sm:text-[2rem] mb-[3rem]"
+              className="pred-analysis-title lg:text-[2.1rem] font-bold sm:text-[2rem] mb-[2rem]"
             >
               Predictive Analysis
             </h1>
@@ -599,9 +599,9 @@ function MobileCaseStudies() {
               <div className="flex-[3] mr-10 flex flex-col items-center">
                 <h2
                   id="predictive-analysis"
-                  className="pred-analysis-header font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]"
+                  className="pred-analysis-header font-bold self-start lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]"
                 >
-                  Case Study
+                  What we provide
                 </h2>
                 <p className="pred-analysis-text self-start mt-2 lg:text-[18px] text-[8px]">
                   Leverage data-driven insights to forecast trends, optimize
@@ -612,9 +612,9 @@ function MobileCaseStudies() {
                 </p>
               </div>
               <img
-                src="./images.png"
+                src="./analysis.svg"
                 alt=""
-                className="pred-analysis-video rounded-lg flex-[2] h-auto max-h-[300px] max-w-[40%] mt-1 z-[100]"
+                className="pred-analysis-video rounded-lg flex-[2] h-auto max-h-[300px] max-w-[30%] mt-1 z-[100]"
               />
             </div>
           </div>

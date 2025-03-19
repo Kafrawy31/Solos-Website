@@ -8,7 +8,7 @@ const Contact = () => {
         <p className="font-extrabold lg:text-3xl text-xl mb-2.5 ">
           Let's talk.
         </p>
-        <p className="font-semibold lg:text-xs text-[8px] tracking-widest ">
+        <p className="font-semibold lg:text-xs text-[7px] tracking-widest ">
           Have big ideas and want to bring them to life? We'd Love to hear from
           you.
           <br /> Tell us about you, your project and how we can help make it
@@ -20,7 +20,7 @@ const Contact = () => {
             Phone.
           </p>
           <p className="text-black text-[10px] font-bold tracking-wide ">
-            +254 798 898988
+            +254 798 898988 +974 55517941
           </p>
         </div>
 
@@ -96,9 +96,7 @@ const Contact = () => {
         </button>
       </form>
       <div className="mt-12 lg:hidden block self-start ml-5">
-        <p className="font-bold text-4xl">SO</p>
-        <p className="font-bold text-4xl">LO</p>
-        <p className="font-bold text-4xl">S</p>
+        <p className="font-bold text-4xl">SOLOS</p>
       </div>
     </div>
   );
