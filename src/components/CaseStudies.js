@@ -470,7 +470,7 @@ function MobileCaseStudies() {
           ${isSticky ? "w-[90vw]" : "w-[60%]"}
           py-[1rem] rounded-lg z-[300] mt-[2rem]
           text-center flex flex-row justify-between items-center
-          text-[8px] sm:text-[10px] lg:text-[12px]
+          text-[7px]
           bg-white/20
           transition-width
         `}
@@ -516,14 +516,14 @@ function MobileCaseStudies() {
                 className="cv-video rounded-lg flex-[3] h-auto max-h-[300px] max-w-[40%] z-[100]"
               />
               <div className="flex-[3] pl-[20px]  items-center">
-                <h2 className="cv-header font-bold mt-3 lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]">
-                  What we provide
+                <h2 className="cv-header font-bold mt-3 lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] mb-2 lg:mb-[1rem]">
+                  Improve Detection Accuracy
                 </h2>
                 <p className="cv-text lg:text-[18px] text-[8px]">
-                  Harness the power of AI to analyze and interpret images and
-                  videos with precision. From real-time object detection and
-                  facial recognition to automated quality control and security
-                  monitoring, our solutions enhance efficiency and accuracy
+                  Harness the power of AI to analyze images and videos with
+                  precision. From real-time object detection and facial
+                  recognition to automated quality control and security
+                  monitoring, our solutions improve accuracy and efficiency
                   across industries.
                 </p>
               </div>
@@ -539,11 +539,11 @@ function MobileCaseStudies() {
             </h1>
             <div className="flex flex-row w-[100%] sm:w-[90%]">
               <div className="flex-[3] flex flex-col pl-[20px] min-h-flex items-center">
-                <h2 className="llm-header self-start font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]">
-                  What we provide
+                <h2 className="llm-header self-start font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] mb-2 lg:mb-[1rem]">
+                  Transform customer experiences
                 </h2>
                 <p className="llm-text self-start lg:text-[18px] text-[8px]">
-                  Enhance customer interactions, automate content creation, and
+                  Improve customer interactions, automate content creation, and
                   streamline workflows with advanced AI-powered language models.
                   From chatbots to document processing, our LLM solutions drive
                   efficiency and deliver human-like communication at scale.
@@ -571,11 +571,11 @@ function MobileCaseStudies() {
                 className="ai-agent-video rounded-lg flex-[2] h-auto max-h-[300px] max-w-[30%] z-[100]"
               />
               <div className="flex-[3] pl-[20px] min-h-flex items-center">
-                <h2 className="ai-agent-header font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] mt-2 lg:mb-[1rem]">
-                  What we provide
+                <h2 className="ai-agent-header font-bold lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] mt-2 mb-2 lg:mb-[1rem]">
+                  Eliminate repetitiveness
                 </h2>
                 <p className="ai-agent-text lg:text-[18px] text-[8px]">
-                  Eliminate repetitive tasks and optimize operations with
+                  Automate repetitive tasks and optimize operations with
                   AI-powered automation. Whether it's workflow automation,
                   robotic process automation (RPA), or intelligent assistants,
                   we help businesses boost productivity and reduce manual
@@ -599,9 +599,9 @@ function MobileCaseStudies() {
               <div className="flex-[3] mr-10 flex flex-col items-center">
                 <h2
                   id="predictive-analysis"
-                  className="pred-analysis-header font-bold self-start lg:text-[36px] sm:text-[10px] lg:mt-[2.5rem] lg:mb-[1rem]"
+                  className="pred-analysis-header font-bold self-start lg:text-[36px] sm:text-[10px] mb-2 lg:mt-[2.5rem] lg:mb-[1rem]"
                 >
-                  What we provide
+                  Forecast with confidence
                 </h2>
                 <p className="pred-analysis-text self-start mt-2 lg:text-[18px] text-[8px]">
                   Leverage data-driven insights to forecast trends, optimize
